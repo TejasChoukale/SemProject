@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #004080; /* Dark blue for main heading */
+}
+
+.tagline {
+    color: #666; /* Dark gray for tagline */
+}
+
+h2 {
+    color: #004080; /* Dark blue for section headings */
+}
+
+#scoreboard, #analysis, #notification {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #004080; /* Dark blue border */
+    border-radius: 8px;
+}
+
+.live-score {
+    font-size: 28px;
+    font-weight: bold;
+    color: #008ae6; /* Light blue for live score */
+}
+
+#players {
+    margin-top: 10px;
+}
+
+.player {
+    color: #333; /* Dark text for player names */
+    font-weight: bold;
+}
+
+#analysis-summary {
+    color: #333; /* Dark text for analysis summary */
+}
+
+#notification-message {
+    color: #28a745; /* Green for notification messages */
+    font-style: italic;
+}
